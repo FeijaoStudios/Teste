@@ -25,7 +25,7 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #5BBE42;
+    border: 5px solid #3A00E0;
 }
 
 .center {
@@ -33,7 +33,11 @@ header img {
 }
 
 h1 {
-    color: #5BBE42;
+    color: #FF0030;
+}
+
+h2 {
+    color: #3A00E0;
 }
 
 footer img {
@@ -56,5 +60,23 @@ footer p {
 }
 
 nav a:hover {
-    color: #5BBE42;
+    color: #ff002f;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
 }
